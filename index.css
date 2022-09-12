@@ -1,0 +1,80 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body ,html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato";
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: #666;
+}
+.image1, .image2, .image3{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+background-repeat: no-repeat;
+
+background-attachment: fixed;
+
+}
+.image1{
+    background-image: url(working3.jpg);
+    min-height: 100vh;
+  
+}
+.image2{
+    background-image: url(laptop3.jpg);
+    min-height: 400px;
+
+}
+.image3{
+    background-image: url(laptop5.jpg);
+    min-height: 400px;
+
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+
+}
+.section-light{
+    background:#f4f4f4;
+    color: #666;
+}
+.section-dark{
+    background:#282e34;
+
+    color: #ddd
+}
+.ptext{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    top: 50%;
+    text-transform: uppercase;
+}
+.ptext .border{
+    background-color: #111;
+    color: white;
+    padding: 20px;  
+   display: inline-block;
+}
+.ptext .border.transp{
+    background-color: transparent;
+    color: black;
+}
+
+@media (max-width:560px) {
+    .img1 .img2 .img3{
+        background-attachment: scroll;
+    }
+    
+}
